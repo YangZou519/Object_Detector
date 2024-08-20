@@ -84,7 +84,7 @@ Image Detection
 To perform object detection on a static image:
 
 ./your-executable-name path/to/image.jpg
-
+![image](https://github.com/user-attachments/assets/02b386b6-10fd-4c05-ae03-231d44144bee)
 Example:
 
 ./object_detection ../data/image.jpg
