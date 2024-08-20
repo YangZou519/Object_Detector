@@ -83,11 +83,9 @@ Image Detection
 
 To perform object detection on a static image:
 
-./your-executable-name path/to/image.jpg
+$$\text{Example:              Results:}\ 
 ![image](https://github.com/user-attachments/assets/02b386b6-10fd-4c05-ae03-231d44144bee)
-Example:
-
-./object_detection ../data/image.jpg
+![image_result](https://github.com/user-attachments/assets/84cc8779-1691-41d8-8eae-cf35af1d50d0)$$
 
 Video Detection
 
