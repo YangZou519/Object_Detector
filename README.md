@@ -75,3 +75,52 @@ To set up the environment for running this project, follow the steps below:
    - Copy `onnxruntime.dll` and `yolov8.onnx` into the `x64/Debug` folder within your project directory.
    - Also, add `onnxruntime.dll` and `yolov8.onnx` to the same directory where your `.vcxproj` file is located.
 
+## Usage
+
+Once the project is built, you can use the executable to perform object detection on images or video streams.
+
+Image Detection
+
+To perform object detection on a static image:
+
+./your-executable-name path/to/image.jpg
+
+Example:
+
+./object_detection ../data/image.jpg
+
+Video Detection
+
+To perform object detection on a video file:
+
+./your-executable-name path/to/video.mp4
+
+Example:
+
+./object_detection ../data/video.mp4
+
+To perform object detection using a webcam (default is the first webcam device):
+
+./your-executable-name 0
+
+Project Structure
+
+.
+├── CMakeLists.txt            # CMake configuration file
+├── README.md                 # This file
+├── src                       # Source files
+│   ├── main.cpp              # Main entry point for the program
+│   ├── yolov8_onnx.h         # Header file for YOLOv8 and ONNX integration
+│   ├── yolov8_onnx.cpp       # Implementation of YOLOv8 and ONNX integration
+│   ├── yolov8_utils.h        # Utility functions and structures
+│   └── yolov8_utils.cpp      # Implementation of utility functions
+├── data                      # Example images and videos for testing
+└── models                    # YOLOv8 ONNX model file
+
+Results
+
+The system demonstrates strong performance in real-time object detection across various test images and videos. Below are some examples of the results:
+
+Image Detection Example
+
+Video Detection Example
