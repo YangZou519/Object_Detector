@@ -18,11 +18,12 @@ To run this program, the following dependencies are required:
 - **CMake**: Required to build the project from source.
 - **Ultralytics YOLOv8**: The Python package for YOLOv8, needed to export the model to ONNX format.
 - 
-## Installation
 
-### Environment Setup
+## Environment Setup
 
 To set up the environment for running this project, follow the steps below:
+
+### Installation
 
 #### 1. Visual Studio
 
@@ -49,3 +50,29 @@ To set up the environment for running this project, follow the steps below:
 2. **Download the latest release** by navigating to the "Releases" section and selecting the appropriate version for your platform (Windows).
 
 3. **Follow the installation instructions** provided in the release to set up ONNX Runtime on your system.
+
+### 4. After downloading
+
+1. **Create a New Project in Visual Studio**:
+   - Open Visual Studio, select "Create a new project".
+   - Choose a template like "Console Application", name your project, and click "Create".
+
+2. **Configure Include Directories**:
+   - Open your project properties by right-clicking on the project name in Solution Explorer and selecting "Properties".
+   - Go to **VC++ Directories**.
+   - In **Include Directories**, click the dropdown arrow and select "Edit".
+   - Add the path to the `include` folder from `opencv/build/include` that you downloaded (e.g., `C:\opencv\build\include`).
+
+3. **Configure Library Directories**:
+   - In the same **VC++ Directories** section, find **Library Directories**, click the dropdown arrow, and select "Edit".
+   - Add the path to the `lib` folder from `opencv/build/x64/vc16/lib` (e.g., `C:\opencv\build\x64\vc16\lib`).
+
+4. **Link OpenCV Libraries**:
+   - Navigate to the **Linker** section in the project properties.
+   - Select **Input**.
+   - In **Additional Dependencies**, click the dropdown arrow and select "Edit".
+   - Add `opencv_world4100d.lib` from the `opencv/build/x64/vc16/lib` directory.
+
+5. **Add Runtime and Model Files**:
+   - Copy `onnxruntime.dll` and `yolov8.onnx` into the `x64/Debug` folder within your project directory.
+   - Also, add `onnxruntime.dll` and `yolov8.onnx` to the same directory where your `.vcxproj` file is located.
