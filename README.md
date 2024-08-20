@@ -15,9 +15,7 @@ To run this program, the following dependencies are required:
 - **C++11 or later**: The program is written in modern C++.
 - **OpenCV**: Used for image processing, video capture, and display functions.
 - **ONNX Runtime**: The inference engine used to run the YOLOv8 model efficiently.
-- **CMake**: Required to build the project from source.
 - **Ultralytics YOLOv8**: The Python package for YOLOv8, needed to export the model to ONNX format.
-- 
 
 ## Environment Setup
 
@@ -76,3 +74,4 @@ To set up the environment for running this project, follow the steps below:
 5. **Add Runtime and Model Files**:
    - Copy `onnxruntime.dll` and `yolov8.onnx` into the `x64/Debug` folder within your project directory.
    - Also, add `onnxruntime.dll` and `yolov8.onnx` to the same directory where your `.vcxproj` file is located.
+
