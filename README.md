@@ -79,33 +79,30 @@ To set up the environment for running this project, follow the steps below:
 
 Once the project is built, you can use the executable to perform object detection on images or video streams.
 
-Image Detection
+#### Image Detection
 
 To perform object detection on a static image:
 
-$$\text{Example:              Results:}\ 
-![image](https://github.com/user-attachments/assets/02b386b6-10fd-4c05-ae03-231d44144bee)
-![image_result](https://github.com/user-attachments/assets/84cc8779-1691-41d8-8eae-cf35af1d50d0)$$
+Example:
 
-Video Detection
+Input file:
+
+![image](https://github.com/user-attachments/assets/02b386b6-10fd-4c05-ae03-231d44144bee)
+
+Results:
+
+![image_result](https://github.com/user-attachments/assets/84cc8779-1691-41d8-8eae-cf35af1d50d0)
+
+#### Video Detection
 
 To perform object detection on a video file:
 
-./your-executable-name path/to/video.mp4
-
 Example:
 
-./object_detection ../data/video.mp4
+Input file:
 
-To perform object detection using a webcam (default is the first webcam device):
-
-./your-executable-name 0
 
 
 Results
 
-The system demonstrates strong performance in real-time object detection across various test images and videos. Below are some examples of the results:
 
-Image Detection Example
-
-Video Detection Example
