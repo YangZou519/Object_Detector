@@ -87,11 +87,11 @@ Example:
 
 Input file:
 
-![image](https://github.com/user-attachments/assets/02b386b6-10fd-4c05-ae03-231d44144bee)
+![Image](https://github.com/user-attachments/assets/02b386b6-10fd-4c05-ae03-231d44144bee)
 
 Results:
 
-![image_result](https://github.com/user-attachments/assets/84cc8779-1691-41d8-8eae-cf35af1d50d0)
+![Image_Detect Result](https://github.com/user-attachments/assets/84cc8779-1691-41d8-8eae-cf35af1d50d0)
 
 #### Video Detection
 
@@ -101,8 +101,11 @@ Example:
 
 Input file:
 
+[Video](https://github.com/user-attachments/assets/097e756d-067c-4efc-a364-98bc308be47b)
 
+Results:
 
-Results
+[Video Detect Result](https://github.com/user-attachments/assets/819e897d-f05f-4c77-81b5-7d56e180a9bb)
+
 
 
