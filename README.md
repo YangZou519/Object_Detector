@@ -103,19 +103,6 @@ To perform object detection using a webcam (default is the first webcam device):
 
 ./your-executable-name 0
 
-Project Structure
-
-.
-├── CMakeLists.txt            # CMake configuration file
-├── README.md                 # This file
-├── src                       # Source files
-│   ├── main.cpp              # Main entry point for the program
-│   ├── yolov8_onnx.h         # Header file for YOLOv8 and ONNX integration
-│   ├── yolov8_onnx.cpp       # Implementation of YOLOv8 and ONNX integration
-│   ├── yolov8_utils.h        # Utility functions and structures
-│   └── yolov8_utils.cpp      # Implementation of utility functions
-├── data                      # Example images and videos for testing
-└── models                    # YOLOv8 ONNX model file
 
 Results
 
